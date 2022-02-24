@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html> 
+	<head>
+		<!-- head 보이지는 않지만 화면에 보이는 부분에서 필요한 부분을 미리 정의해두는 곳 -->
+		<title>My First Website</title>
+		<meta charset="utf-8"> 
+		<style>
+			/* 화면에 보이지 않지만 스타일을 정의 하는 곳 */
+			h1{
+				font-size:  64px;
+				text-align:  center;
+			}
+
+			h3{
+				margin-top: 100px;
+			}
+
+			p i{
+				font-size: 48px;
+			}
+
+			.big-h4{
+				font-size: 32px;
+				color: aquamarine;
+			}
+
+			.center-h5{
+				text-align: center;
+				font-size: 18px;
+				color: darkcyan;
+			}
+			/* <!-- h4, h5가 여러개 있는 상황에서 해당 부분 스타일 변경시 class 사용(몇개를 중복하여 사용 가능) --> */
+			#best-text {
+				color: orange;
+			}
+			/* 특정 문단에 스타일 지정 가능, 아이디 하나당 스타일 요소 하나만 가능*/
+			/* 여려 요소를 스타일링 하고 싶으면 = 클래스 / 한 요소만 스타일링 하고 싶으면 = id */
+			/* 추가로 이미 클래스로 지정된 아이템중 하나를 아이디로 지정하여 효과를 줄 수 있다 */
+		</style>
+
+	</head>
+
+	<body>
+		<!-- 화면에 보이는 요소들을 정의하는 곳 -->
+		<h1>My First Page</h1>
+		<h2>I <i>love</i> HTML!</h2>
+		<h3>안녕 코드세상아!</h3>
+
+		<img src="https://images.immediate.co.uk/production/volatile/sites/4/2021/04/supermoon-pink-2021-27aa3bc.jpg?webp=true&quality=90&resize=728%2C309" width="600">
+		<img src="images/moon-night-supermoon.jpg" width="600">
+
+		<p>Lorem ipsum <b>dolor</b> sit amet, <strong>consectetur</strong> adipiscing elit, sed do eiusmod <i>tempor</i> incididunt ut labore et dolore magna aliqua.</p>
+		<p>다음주 <strong>목요일</strong>에 <strong>제 1 고사장</strong>에서 시험을 <em>10문제</em>를 보러 간다.</p>
+		<h4 class="big-h4">첫 번째 문단</h4>
+		<h4 id="best-text">두 번째 문단</h4>
+		<h4>두 번째 문단</h4>
+		<h5>세 번째 문단</h4>
+		<h5 class="center-h5">네 번째 문단</h5>
+			<!-- h4, h5가 여러개 있는 상황에서 해당 부분 스타일 변경시 class 사용 -->
+	
+		<a href="http://google.com"target="_blank">구글로 가는 링크</a>
+
+		<a href="folder1/page1.html">page 1</a>
+		<a href="folder1/folder2/page2.html">page 2</a>
+		<a href="folder1/folder2/page3.html">page 3</a>
+	</body>
+</html>
+
+<!-- 유용한 싸이트
+google - css text decoration
+         html a tag
+		 ex) get rid of underline a tag
+		-> stackoverflow.com
+	 	-> jsfiddle 코딩 질문용 사이트 -->

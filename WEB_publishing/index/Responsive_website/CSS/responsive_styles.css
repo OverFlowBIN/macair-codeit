@@ -1,0 +1,29 @@
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px
+}
+
+@media (min-width: 760px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    p {
+        font-size: 32px;
+    }
+}
+
+ /* @media : media query -> responsive web design */

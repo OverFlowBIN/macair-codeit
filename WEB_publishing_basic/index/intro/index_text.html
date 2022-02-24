@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Color Example</title>
+        <meta charset="utf-8">
+        <style>
+            
+
+            h1{
+                color: rgb(94,12,123); 
+                font-weight: 100;  
+                /* 폰트 웨이트는 100~900까지(100단위로 지원), 브라우저나 폰트에 따라 지원 범위가 다름 */
+                text-align: center;
+                /* left, right, center */
+                text-decoration: underline;
+                /* underline, overline, line-through, none */
+            }
+            /* rgb(12,23,42) 또는 명칭 #81F81B 활용 */
+            
+            
+            p , .menu {
+                text-align: center;
+                text-decoration: none;
+            }
+            body {
+                font-size: 20px;
+            }
+
+            .div1 {
+                font-size : 100%;
+                font-family: "times new roman", times, serif;
+            }
+             /* 기본 폰트로  "times new roman"을 쓰지만 만약 없으면 두번째로 지정해준 times로, 그것도 없으면 serif로 지정된다 */
+            .div2 {
+                font-size : 200%;
+                font-family: arial;
+            }
+
+            .div3 {
+                font-size : 2em;
+                font-family: arial;
+            }
+            /* 상위 문단에 대한 퍼센테이지로 나타남 (body=div1,2*div1=div2,2div2=div3) */
+            /* 1em = 100%, 2em = 200% */
+        </style>
+    </head>
+
+    <body>
+        <h1>텍스트 변경</h1>
+        <p>paragraph</p>
+        <div class="menu">
+            <a href="#">Link</a>
+            <!-- 링크 # 은 가장 상위로 스크롤 이동을 의미한다 -->
+        </div>
+        <!-- 링크를 가운데 정렬 하고 싶을때 div로 감싸주어야 한다.
+        그냥 할 경우 링크의 범위는 글자 자체로만 끝남(p,h1 등은 좌우 전체로 잡혀있음) 
+        "a" 는 inline 속석이고 "p,h"는 block 속성이다.-->
+
+        <div class="div1">
+            div1
+            <div class="div2">
+                div2
+                <div class="div3">
+                    div3
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!-- CSS Color -> w3school.com or html color codes -->
+
+<!-- 폰프크기 절대적  px, pt / 상대적 em, % -->
+
+<!-- 구글폰트 사용하기 : fonts.google.com을 들어가서 원하는 폰트 링크를 걸어줌
+font-familly로 지정된 폰트 사용 가능 -->
+
+<!-- 내컴퓨터에 있는 폰트 사용하기
+@font-face {
+    src : url("../fonts/BMJUA_otf.orf")
+    font-family : : "JUA";
+}
+
+p{
+    font-family: "JUA";
+} -->

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>My Favorite Movies</title>
+        <meta charset="utf-8">
+        <style>
+            h1 {
+                text-align: center;
+                margin-top: 75px;
+                margin-bottom: 75px;
+            }
+
+            .movie {
+                background-color: #eee;
+                border-radius: 20px;
+                margin-bottom: 50px;
+                padding: 50px;
+                width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .movie .title {
+                text-align: center;
+            }
+
+            .movie .poster {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 40px;
+                margin-bottom: 40px;
+            }
+
+            .red {
+                color: red;
+            }
+            /* div가 class로 지정되어있기 떄문에 지정된 div내의 class를 이용하기 위해선
+            .movie .poster 처럼 class위치를 찾아줘야 한다 */
+
+
+        </style>
+
+    </head>
+
+    <body>
+        <h1>My Favorite Movies</h1>
+        <div class="movie">
+            <h2 class="title">Eternal Sunshine of the Spotless Mind</h2>
+            <img class="poster" src="images/Eternal_Sunshine.png">
+            <p class="summary">Eternal Sunshine of the Spotless Mind is a 2004 American drama film written by Charlie Kaufman and directed by Michel Gondry. <span class="red">It follows an estranged couple who have erased each other from their memories. Pierre Bismuth created the story with Kaufman and Gondry. The ensemble cast includes Jim Carrey, Kate Winslet, Kirsten Dunst, Mark Ruffalo, Elijah Wood, and Tom Wilkinson. The title of the film is a quotation from the 1717 poem Eloisa to Abelard by Alexander Pope.</span>
+                The film uses elements of psychological thriller, science fiction and a nonlinear narrative to explore the nature of memory and romantic love.[2] It opened in North America on March 19, 2004, receiving high acclaim from critics and audiences and grossed over $74 million worldwide. It won the Academy Award for Best Original Screenplay, and Winslet received a nomination for the Academy Award for Best Actress. The film developed a cult following in the years after its release and has come to be regarded by many critics as one of the best films of the early 21st century.</p>
+        </div>
+        
+        <!-- span ->  쭉 글이 있을때 특정 텍스트만 스타일링 해주고 싶을때 사용한다. div도 가능 하지만 글이 서로 띄어진다. -->
+
+
+        <div class="movie">
+            <h2 class="title">The Truman Show</h2>
+            <img class="poster" src="images/Trumanshow.jpeg">
+            <p class="summary">he Truman Show is a 1998 American psychological comedy-drama film[4] directed by Peter Weir, produced by Scott Rudin, Andrew Niccol, Edward S. Feldman, and Adam Schroeder, and written by Niccol. The film stars Jim Carrey as Truman Burbank, a man who grew up living an ordinary life that—unbeknownst to him—takes place on a large set populated by actors for a television show about him. Additional roles are performed by Laura Linney, Noah Emmerich, Natascha McElhone, Holland Taylor, Ed Harris, Paul Giamatti and Brian Delate.
+                <div class="red">The Truman Show was originally a spec script by Niccol, inspired by a 1989 episode of The Twilight Zone called "Special Service" (itself written by J. Michael Straczynski).[5] Unlike the finished product, it was more of a science-fiction thriller, with the story set in New York City. Scott Rudin purchased the script and set up production at Paramount Pictures. Brian De Palma was to direct before Weir signed as director, making the film for $60 million—$20 million less than the original estimate. Niccol rewrote the script while the crew was waiting for Carrey to sign. The majority of filming took place at Seaside, Florida, a master-planned community located in the Florida Panhandle.</div>>
+                The film was a financial success, debuting to critical acclaim, and earned numerous nominations at the 71st Academy Awards, 56th Golden Globe Awards, 52nd British Academy Film Awards and 25th Saturn Awards. The Truman Show has been analyzed as an exploration of simulated reality, existentialism, surveillance, religion, metaphilosophy, privacy and reality television.</p>
+        </div>
+
+        <div class="movie">
+            <h2 class="title">Good Will Hunting</h2>
+            <img class="poster" src="images/good_will_hunting.png">
+            <p class="summary">Good Will Hunting is a 1997 American drama film directed by Gus Van Sant and starring Robin Williams, Matt Damon, Ben Affleck, Minnie Driver, and Stellan Skarsgård. Written by Affleck and Damon, the film follows 20-year-old South Boston janitor Will Hunting, an unrecognized genius who, as part of a deferred prosecution agreement after assaulting a police officer, becomes a patient of a therapist and studies advanced mathematics with a renowned professor. Through his therapy sessions, Will re-evaluates his relationships with his best friend, his girlfriend, and himself, facing the significant task of confronting his past and thinking about his future.
+                The film received positive reviews from critics and grossed over $225 million during its theatrical run against a $10 million budget. At the 1998 Oscars, it was nominated for nine Academy Awards, including the Academy Award for Best Picture, and won two: Best Supporting Actor for Williams and Best Original Screenplay for Affleck and Damon.</p>
+        </div>
+        <!-- div태그를 이용하여 그룹을 형성 시키면 해당 부분에 전체적으로 스타일을 입힐 수 있다 -->
+        
+    </body>
+</html>

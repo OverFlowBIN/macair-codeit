@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #1BBC9B;
+  }
+  
+  .login-form {
+    width: 300px;
+    background-color: #EEEFF1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top : 50px;
+    border-radius: 5px;
+    padding : 20px;
+  }
+  
+  .text-field {
+    font-size: 14px;
+    width : 100%;
+    padding : 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border : none;
+  }
+  
+  .submit-btn {
+    font-size: 14px;
+    width : 100%;
+    padding : 10px;
+    border-radius: 5px;
+    color : white;
+    border : none;
+    background-color:  #1BBC9B;
+    margin-bottom: 30px;
+  }
+
+  .submit-btn:hover {
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.50);
+  }
+
+  /* hover 기능을 이용하여 마우스를 올릴때 특정 효과를 추가 시킬 수 있다. */
+
+  .links {
+   text-align: center;
+  }
+  
+  .links a {
+    font-size: 12px;
+    color :#9B9B9B;
+  }
